@@ -12,7 +12,7 @@ class Welcometext extends StatelessWidget {
         child: Column(mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-        Text("Hey Alex,",style: titleText,),
+        Text("Hey Ali,",style: titleText,),
         SizedBox(height: 8,)
         ,Text("Find a course you want to learn",style: normaltext,)
         ,

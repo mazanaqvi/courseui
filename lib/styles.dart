@@ -27,13 +27,35 @@ const TextStyle posttext=TextStyle(
   fontWeight: FontWeight.bold,
   color: Colors.white
 );
+const TextStyle contentsdetails=TextStyle(
+  fontSize: 14.0,
+  fontWeight: FontWeight.bold,
+  color: maincolor
+);
+const TextStyle coursetime=TextStyle(
+  fontSize: 16.0,
+  fontWeight: FontWeight.bold,
+  color: Color(0xffa4a9c0)
+);
+
 const TextStyle normaltext=TextStyle(
   fontSize: 22.0,
 
-  color: Color(0xff6a7192)
+  color: maincolor
+);
+const TextStyle coursetile=TextStyle(
+  fontSize: 28.0,
+  fontWeight: FontWeight.bold,
+  color:maincolor
 );
 const TextStyle insidesearch=TextStyle(
   fontSize: 22.0,
 
   color: Color(0xffa4a9c0)
+);
+
+const TextStyle tilesubtitle=TextStyle(
+  fontSize: 22.0,
+
+  color: Color(0xFF232B55)
 );
