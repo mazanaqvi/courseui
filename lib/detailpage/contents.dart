@@ -27,13 +27,15 @@ class Contents extends StatelessWidget {
                   children: [
                     Text("Course Contents", style: tilesubtitle),
                     Emptyspacevertical(space: 30,),
-                    CourseDetails(),
+                    CourseDetails(count: 01,time: "5:35 minutes",note: "Welcome to the github",),
                     Emptyspacevertical(space: 30,),
-                    CourseDetails(),
+                    CourseDetails(count: 02,time: "2:1 minutes",note: "Introduction to the UI",),
                     Emptyspacevertical(space: 30,),
-                    CourseDetails(),
+                    CourseDetails(count: 03,time: "19:12 minutes",note: "UI fundamentals",),
                     Emptyspacevertical(space: 30,),
-                    CourseDetails(),
+                    CourseDetails(count: 04,time: "6:5 minutes",note: "Future Builder and List View Builder",),
+                    Emptyspacevertical(space: 30,),
+                    
                   ],
                 ))));
   }
