@@ -11,12 +11,12 @@ class Contents extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-        padding: const EdgeInsets.only(top: 350),
+        padding: const EdgeInsets.only(top: 250),
         child: Container(
-            height: 500,
+            height: 450,
             width: double.infinity,
             decoration: BoxDecoration(
-              color: Color(0xFFFCFCFC),
+              color: Color(0xFFEEEEEE),
               borderRadius: BorderRadius.only(
                   topRight: Radius.circular(80), topLeft: Radius.circular(80)),
             ),

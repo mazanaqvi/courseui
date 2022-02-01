@@ -1,6 +1,7 @@
 import 'package:coursesui/detailpage/toparea.dart';
 import 'package:flutter/material.dart';
 
+import 'bottom_row.dart';
 import 'contents.dart';
 
 class Detailpage extends StatelessWidget {
@@ -15,7 +16,8 @@ class Detailpage extends StatelessWidget {
             Stack(
               children: [
                 Toparea(),
-                Contents()
+                Contents(),
+                BottomRow(),
               ],
             )
           ],
